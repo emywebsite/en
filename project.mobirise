@@ -69,7 +69,7 @@
           },
           "title": "<i>Emy WebSite<br>My Blog/Vlog</i>",
           "text": "My goal is to help everyone in as much.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Facebook SHARE</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Femywebsite.github.io%2Fen%2Findex.html&amp;amp;src=sdkpreparse\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook SHARE</a> ",
           "_styles": {
             ".mbr-section-title": {
               "color": "#000000"
