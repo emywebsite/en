@@ -22,9 +22,8 @@
     },
     "versionFirst": "3.9.2",
     "uniqCompNum": 10,
-    "versionPublish": "3.10",
+    "versionPublish": "3.10.2",
     "path": "@PROJECT_PATH@",
-    "publishType": "github",
     "favicon": "@PROJECT_PATH@/assets/images/working-6214-128x72-9.png",
     "noImageResize": "true",
     "cookiesAlert": "",
@@ -47,6 +46,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "header1-0",
           "_params": {
             "parallax": true,
@@ -69,15 +76,7 @@
           },
           "title": "<i>Emy WebSite<br>My Blog/Vlog</i>",
           "text": "My goal is to help everyone in as much.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Femywebsite.github.io%2Fen%2Findex.html&amp;amp;src=sdkpreparse\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook SHARE</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-lead": {
-              "color": "#000000"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"emywebsite.github.io/EmyWebSite-0.1.apk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Android Download</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Femywebsite.github.io%2Fen%2Findex.html&amp;amp;src=sdkpreparse\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Facebook SHARE</a> "
         },
         {
           "_inherit": "header2",
@@ -95,6 +94,7 @@
           "_name": "header6",
           "_anchor": "header6-1",
           "_params": {
+            "imageSize": 50,
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/hd-crazy-background.jpg",
